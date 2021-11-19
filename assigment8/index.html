@@ -1,0 +1,42 @@
+<!-- Write down a logic to validate data for Assignment 6 using JavaScript -->
+<!-- on client side for GET Method -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>logic to validate data for Assignment 6 using JavaScript
+            on client side for GET Method</h1>
+    </header>
+    <section>
+        <form action="welcome" method="get" onsubmit="validate(event)" >
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName">
+                <span id="errFirstName"></span>
+            </div>
+            <div>
+                <label for="lastName">lastName</label>
+                <input type="text" name="lastName" id="lastName">
+                <span id="errlastName"></span>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <h6>Mastek &copy;</h6>
+    </footer>
+    <!-- best pratices using external js file for custom coding  -->
+<script src="js/validate.js"></script>
+</body>
+</html>
