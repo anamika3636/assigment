@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/icon" href="image\icon.jpg" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <script src="https://kit.fontawesome.com/eeed69663a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="top">
+  <!-- starting of header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">skill <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">pay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">attendence</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Calendar
+        </span>
+      </div>
+    </nav>
+  </header>
+  <!-- ending of header -->
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col"><img src="image/edit-profile-vector-icon.jpg" width="200px" height="200px"></div>
+        <div class="col">
+          <form>
+            <div class="row">
+              <label>First name</label>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <label>Last name</label>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div></br>
+            <form class="form-inline">
+              <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only">Email</label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+              </div>
+              <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Sign in</button>
+            </form>
+              
+          </form>
+        </div>
+        </div>
+        <!-- staring of 1 div in 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header">
+                Name: Anamika
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Position:trainee software engineer</li>
+                <li class="list-group-item">Skill: Java,html</li>
+                <li class="list-group-item">Gurugram</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4"><form>
+            <div class="form-row">
+              <div class="col-7">
+                
+                <input type="text" class="form-control" placeholder="City">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="State">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Zip">
+              </div>
+            </div>
+          </form></div>
+          <div class="col-sm-4"><form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">School name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="school name">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Collage Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Collage name">
+            </div>
+          </form></div>
+        </div>
+        <!-- second div -->
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Emergency Details</h5>
+               
+                 <label>Address</label>
+                 <input type="text"  placeholder="Address"></br>
+                 <label>calling no.</label>
+                 <input type="text"  placeholder="calling no."></br>
+                 <label>Blood group</label>
+                 <input type="text"  placeholder="blood group"></br>
+                 
+                <a href="#" class="btn btn-primary">More info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Certification</h5>
+                <label>certification 1</label>
+                 <input type="text"  placeholder="certification 1"></br>
+                 <label>certification 2</label>
+                 <input type="text"  placeholder="certification 2"></br>
+                 <label>certification 3</label>
+                 <input type="text"  placeholder="certification 3"></br>
+                
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div></br>
+<!-- end pof 2nd div -->
+<!-- 3r div start -->
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        
+        <h4>Details</h4>
+        <ul>
+          <li>passport no.</li>
+          <li>gender</li>
+          <li>adhar card no.</li>
+          <li> birthday</li>
+
+        </ul>
+        <a href="#" class="btn btn-primary">Fill details over here</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Higher education </h5>
+        <ul>
+          <li>Degree name:</li>
+          <li>Collage name:</li>
+          <li>CGPA:</li>
+          <li>state:</li>
+
+        </ul>
+        
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of 3 -->
+</div>
+
+
+      </div>
+      
+      <footer>
+        <p>For more info vist to</p>
+        <ul>
+          <li><i class="fab fa-facebook"></i></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">more</a></li>
+        </ul>
+        <p>
+          &copy;
+          <script>
+            document.write(new Date());
+          </script>
+        </p>
+        <p>&rdquo;Have a good day &rdquo;</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
